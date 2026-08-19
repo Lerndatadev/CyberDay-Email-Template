@@ -1,0 +1,294 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Proyecto Café</title>
+
+    <style>
+      @media screen and (max-width: 599px) {
+        .columna {
+          display: block !important;
+          width: 100% !important;
+          max-width: 100% !important;
+          text-align: center !important;
+        }
+        .ocultar {
+          display: none !important;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <table
+      border="0"
+      role="presentation"
+      cellpadding="0"
+      cellspacing="0"
+      width="100%"
+      style="background-color: #fdfbf7; margin: 0; padding: 0"
+    >
+      <tr>
+        <td align="center" valign="top">
+          <table
+            border="0"
+            align="center"
+            role="presentation"
+            cellpadding="0"
+            cellspacing="0"
+            width="600"
+            style="width: 100%; max-width: 600px; background-color: #ffffff"
+          >
+            <tr>
+              <td align="center" style="padding: 40px 0 40px 0">
+                <span
+                  style="
+                    font-family: Arial, Helvetica, sans-serif;
+                    font-size: 20px;
+                    font-weight: bold;
+                    color: #78350f;
+                    letter-spacing: 2px;
+                  "
+                  >CAFÉ DEL SUR</span
+                >
+              </td>
+            </tr>
+
+            <tr>
+              <td
+                align="center"
+                style="padding: 0; margin: 0; font-size: 0; line-height: 0"
+              >
+                <img
+                  src="https://picsum.photos/id/1060/600/350"
+                  alt="El mejor café del sur de Chile con granos de café tostados premium"
+                  width="600"
+                  border="0"
+                  style="
+                    display: block;
+                    width: 100%;
+                    max-width: 600px;
+                    height: auto;
+                  "
+                />
+              </td>
+            </tr>
+
+            <tr>
+              <td align="left" style="padding: 40px 40px 20px 40px">
+                <h2
+                  style="
+                    margin: 0 0 20px 0;
+                    font-size: 24px;
+                    color: #292524;
+                    font-family: Arial, Helvetica, sans-serif;
+                  "
+                >
+                  El invierno se acompaña con un buen grano.
+                </h2>
+                <p
+                  style="
+                    margin: 0 0 16px 0;
+                    font-family: Arial, Helvetica, sans-serif;
+                    font-size: 16px;
+                    line-height: 24px;
+                    color: #78716c;
+                  "
+                >
+                  Descubre el sabor auténtico del sur de Chile en cada taza.
+                  Granos premium que cuentan una historia.
+                </p>
+              </td>
+            </tr>
+
+            <!-- 
+              LÍNEA 80: SE CORRIGIÓ ESTA SECCIÓN. 
+              Se eliminaron todos los caracteres invisibles corruptos (' '), se añadió padding lateral (40px) 
+              para alinear los productos con el texto de arriba, y se ajustó el espaciado interno.
+            -->
+            <!-- 
+  ESTRATEGIA 2: Columnas estructuradas mediante celdas fijas (td)
+  Este enfoque elimina problemas de desborde y flujos extraños en clientes de correo estrictos.
+-->
+            <tr>
+              <td align="center" style="padding: 0 40px 40px 40px">
+                <table
+                  border="0"
+                  cellpadding="0"
+                  cellspacing="0"
+                  role="presentation"
+                  width="100%"
+                >
+                  <tr>
+                    <!-- Columna Izquierda (Producto 1) -->
+                    <td
+                      class="columna"
+                      width="245"
+                      valign="top"
+                      style="width: 245px; padding-bottom: 20px"
+                    >
+                      <table
+                        border="0"
+                        cellpadding="0"
+                        cellspacing="0"
+                        role="presentation"
+                        width="100%"
+                      >
+                        <tr>
+                          <td
+                            align="center"
+                            style="font-size: 0; line-height: 0"
+                          >
+                            <img
+                              src="https://picsum.photos/id/766/245/180"
+                              alt="Café de Especialidad Origen Chile"
+                              width="245"
+                              border="0"
+                              style="
+                                display: block;
+                                width: 100%;
+                                max-width: 245px;
+                                height: auto;
+                                border-radius: 4px;
+                              "
+                            />
+                          </td>
+                        </tr>
+                        <tr>
+                          <td
+                            align="left"
+                            style="
+                              padding: 12px 0 4px 0;
+                              font-family: Arial, sans-serif;
+                              font-size: 16px;
+                              font-weight: bold;
+                              line-height: 22px;
+                              color: #292524;
+                            "
+                          >
+                            Café de Especialidad — Origen Chile
+                          </td>
+                        </tr>
+                        <tr>
+                          <td
+                            align="left"
+                            style="
+                              font-family: Arial, sans-serif;
+                              font-size: 18px;
+                              font-weight: bold;
+                              line-height: 24px;
+                              color: #78350f;
+                            "
+                          >
+                            $12.990
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+
+                    <!-- Celda Separadora (Espacio intermedio) -->
+                    <td
+                      class="ocultar"
+                      width="30"
+                      style="width: 30px; font-size: 0; line-height: 0"
+                    >
+                      &nbsp;
+                    </td>
+
+                    <!-- Columna Derecha (Producto 2) -->
+                    <td
+                      class="columna"
+                      width="245"
+                      valign="top"
+                      style="width: 245px; padding-bottom: 20px"
+                    >
+                      <table
+                        border="0"
+                        cellpadding="0"
+                        cellspacing="0"
+                        role="presentation"
+                        width="100%"
+                      >
+                        <tr>
+                          <td
+                            align="center"
+                            style="font-size: 0; line-height: 0"
+                          >
+                            <img
+                              src="https://picsum.photos/id/63/245/180"
+                              alt="Prensa Francesa de Acero"
+                              width="245"
+                              border="0"
+                              style="
+                                display: block;
+                                width: 100%;
+                                max-width: 245px;
+                                height: auto;
+                                border-radius: 4px;
+                              "
+                            />
+                          </td>
+                        </tr>
+                        <tr>
+                          <td
+                            align="left"
+                            style="
+                              padding: 12px 0 4px 0;
+                              font-family: Arial, sans-serif;
+                              font-size: 16px;
+                              font-weight: bold;
+                              line-height: 22px;
+                              color: #292524;
+                            "
+                          >
+                            Prensa Francesa Acero Premium
+                          </td>
+                        </tr>
+                        <tr>
+                          <td
+                            align="left"
+                            style="
+                              font-family: Arial, sans-serif;
+                              font-size: 18px;
+                              font-weight: bold;
+                              line-height: 24px;
+                              color: #78350f;
+                            "
+                          >
+                            $24.990
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+            <tr>
+  <td align="center" style="background-color: #f5f5f4; padding: 40px 40px 40px 40px; border-top: 1px solid #e7e5e4;">
+    
+    <!-- Párrafo 1: Reseteado el margen y asegurada la fuente -->
+    <p style="font-family: Arial, sans-serif; font-size: 14px; font-weight: bold; color: #44403c; margin: 0 0 10px 0;">
+      CAFÉ DEL SUR
+    </p>
+    
+    <!-- Párrafo 2: Asegurada la fuente para que no use Times New Roman -->
+    <p style="font-family: Arial, sans-serif; font-size: 12px; line-height: 18px; color: #78716c; margin: 0 0 20px 0;">
+      Av. Philippi 450, Puerto Varas, Chile. (dirección ficticia).<br/>
+      Recibiste este correo porque estás suscrito a nuestra lista de novedades.
+    </p>
+    
+    <!-- Párrafo 3: Asegurada la fuente y heredada al enlace -->
+    <p style="font-family: Arial, sans-serif; font-size: 12px; line-height: 18px; color: #78716c; margin: 0;">
+      Actualiza tus preferencias de email o date de baja 
+      <a href="#lapáginaficticiadelcafé" style="color: #78350f; text-decoration: underline; font-family: Arial, sans-serif;">aquí</a>
+    </p>
+
+  </td>
+</tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
